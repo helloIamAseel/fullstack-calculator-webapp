@@ -66,7 +66,7 @@ async function answer() {
     equation = result;
 
     try {
-      await fetch("https://calculator-rpxo.onrender.com", {
+      await fetch("https://newcalculator-bqx6.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -147,7 +147,7 @@ async function answer() {
 
    // Fetch history from backend
    async function fetchHistory() {
-    const res = await fetch(`https://calculator-rpxo.onrender.com/${userId}`);
+    const res = await fetch(`https://newcalculator-bqx6.onrender.com/${userId}`);
     history = await res.json();
     showHistory = true;  // show popup
   }
