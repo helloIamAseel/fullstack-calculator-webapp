@@ -147,6 +147,7 @@ async function answer() {
 
    // Fetch history from backend
    async function fetchHistory() {
+    console.log("userId:", userId);
      if (!userId) return; // handels empty usedId
       const res = await fetch(`https://newcalculator-production.up.railway.app/history/${userId}`);
       history = await res.json();
