@@ -66,7 +66,7 @@ async function answer() {
     equation = result;
 
     try {
-      await fetch("https://newcalculator-production.up.railway.app/history/", {
+      await fetch("https://newcalculator-production.up.railway.app/calculation", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
