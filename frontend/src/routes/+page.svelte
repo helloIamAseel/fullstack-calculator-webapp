@@ -147,10 +147,11 @@ async function answer() {
 
    // Fetch history from backend
    async function fetchHistory() {
-    const res = await fetch(`https://newcalculator-production.up.railway.app/history/${userId}`);
-    history = await res.json();
-    showHistory = true;  // show popup
-  }
+     if (!userId) return; // handels empty usedId
+      const res = await fetch(`https://newcalculator-production.up.railway.app/history/${userId}`);
+      history = await res.json();
+      showHistory = true;
+   }
 
      function onKeyDown(e: KeyboardEvent) {
         let button = document.getElementById(e.key);
