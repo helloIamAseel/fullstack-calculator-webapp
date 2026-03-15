@@ -31,3 +31,6 @@ A web-based calculator built with **Svelte**,and **Tailwind CSS** for the fronte
 - Vite for dev server and build  
 - Vercel for frontend deployment
 - Railway for database and backend deployment
+
+## 🔗 Live Demo
+https://new-calculator-blond.vercel.app/
