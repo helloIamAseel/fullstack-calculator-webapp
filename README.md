@@ -1,6 +1,6 @@
 # Full-Stack Calculator with History
 
-A web-based calculator built with **Svelte**,and **Tailwind CSS** for the frontend, with a **Node.js + Express backend** and **MySQL database** to store user-specific calculation history.
+A full-stack web-based calculator built using Svelte and Tailwind CSS for the frontend, and Node.js with Express and MySQL for the backend. The application supports advanced mathematical operations and stores user calculation history in a database.
 
 ---
 
