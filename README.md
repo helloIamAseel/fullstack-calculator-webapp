@@ -6,12 +6,12 @@ A full-stack web-based calculator built using Svelte and Tailwind CSS for the fr
 
 ## 🚀 Features
 
-- Standard and scientific calculations (sin, cos, tan, sqrt, etc.)
+- Supports standard and scientific calculations (sin, cos, tan, sqrt, etc.)
 - Automatically balances parentheses in expressions
-- Real-time calculation history saved per browser
+- Stores calculation history in a MySQL database
+- Displays history in a dynamic popup interface
 - Responsive UI built with Tailwind CSS
-- Smooth popup for viewing past calculations
-- Error handling with visual feedback (red flash for invalid expressions)
+- Error handling with visual feedback for invalid inputs
 
 ---
 
